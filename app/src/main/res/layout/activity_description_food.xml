@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionFood">
+<LinearLayout
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<TextView
+    android:id="@+id/tv_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:layout_margin="10dp"
+    android:textColor="@color/black"
+    android:layout_gravity="center"
+    android:text="Food Name"/>
+    <TextView
+        android:id="@+id/tv_ingredients"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:text="What we need?"/>
+    <TextView
+        android:id="@+id/tvOfFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:text="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/sequencePreparation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Sequences of preparing food"/>
+    <TextView
+        android:id="@+id/aboutPreparation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:text="About preparation"/>
+
+</LinearLayout>
+</ScrollView>
